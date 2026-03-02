@@ -1,0 +1,11 @@
+{
+  "id": "dialectica",
+  "name": "Dialectica",
+  "description": "WebSocket channel plugin for Dialectica",
+  "channels": ["dialectica"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

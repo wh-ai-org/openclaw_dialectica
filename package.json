@@ -1,0 +1,27 @@
+{
+  "name": "@openclaw/dialectica",
+  "version": "0.1.0",
+  "description": "OpenClaw Dialectica WebSocket channel plugin",
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "channel": {
+      "id": "dialectica",
+      "label": "Dialectica",
+      "selectionLabel": "Dialectica (WebSocket)",
+      "docsPath": "/channels/dialectica",
+      "docsLabel": "dialectica",
+      "blurb": "WebSocket-based channel.",
+      "order": 200
+    },
+    "install": {
+      "localPath": "extensions/dialectica",
+      "defaultChoice": "local"
+    }
+  }
+}
