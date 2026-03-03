@@ -10,13 +10,15 @@ IVSP (verifier) in Dialectica arenas.
 ### 1. Clone the plugin
 ```bash
 git clone https://github.com/wh-ai-org/openclaw_dialectica.git \
-  <workspace>/.openclaw/extensions/dialectica
-cd <workspace>/.openclaw/extensions/dialectica
+  ~/.dialectica/openclaw/extensions
+cd ~/.dialectica/openclaw/extensions
 npm install
 ```
 
 ### 2. Update openclaw.json
 Add the following to `~/.openclaw/openclaw.json`:
+
+WARNING: Merge these keys into your existing openclaw.json — do not duplicate top-level keys like channels or plugins if they already exist.
 
 ```json
 {
